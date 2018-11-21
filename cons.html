@@ -279,45 +279,74 @@
                         </div>
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row">
 
                     <!-- Start Google Map -->
-                    <div class="col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
                         <!-- Start Map -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452 "
-                            width="100% " height="380 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452"
+                            width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
                         <!-- End Map -->
                     </div>
                     <!-- End Google Map -->
+
+                    <!-- Start  contact -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="form contact-form">
+                            <div id="sendmessage">Your message has been sent. Thank you!</div>
+                            <div id="errormessage"></div>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="text-center"><button type="submit">Send Message</button></div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Contact Area -->
-
     <!-- Start Footer bottom Area -->
     <footer>
-        <div class="footer-area ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-4 col-sm-4 col-xs-12 ">
-                        <div class="footer-content ">
-                            <div class="footer-head ">
-                                <div class="footer-logo ">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
+                                <div class="footer-logo">
                                     <h2>SLC Engineering and Construction Private Limited</h2>
                                 </div>
 
                                 <p>We make sure that our clients are satisfied with our work and we strive harder to give our best.</p>
-                                <div class="footer-icons ">
+                                <div class="footer-icons">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/SLCECCGroup/?modal=admin_todo_tour "><i class="fa fa-facebook "></i></a>
+                                            <a href="https://www.facebook.com/SLCECCGroup/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/slc_and "><i class="fa fa-twitter "></i></a>
+                                            <a href="https://twitter.com/slc_and"><i class="fa fa-twitter"></i></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/slc-engineering-and-construction-private-limited-bb7075175/ "><i class="fa fa-linkedin "></i></a>
+                                            <a href="https://www.linkedin.com/in/slc-engineering-and-construction-private-limited-bb7075175/"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/slcecc/"><i class="fa fa-instagram"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -325,14 +354,14 @@
                         </div>
                     </div>
                     <!-- end single footer -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 ">
-                        <div class="footer-content ">
-                            <div class="footer-head ">
+                    <div class="col-md-66 col-sm-6 col-xs-12">
+                        <div class="footer-content">
+                            <div class="footer-head">
                                 <h4>information</h4>
                                 <p>
                                     Please feel free to contact us, we can solve your problem.
                                 </p>
-                                <div class="footer-contacts ">
+                                <div class="footer-contacts">
                                     <p><span>Tel:</span> +91 - 9677016513, 8754792793, 9710628671</p>
                                     <p><span>Email:</span> slceccpvt.ltd@gmail.com</p>
                                     <p><span>Working Hours:</span> 9am-5pm</p>
@@ -340,42 +369,27 @@
                             </div>
                         </div>
                     </div>
-                    <!-- end single footer -->
-                    <div class="col-md-4 col-sm-4 col-xs-12 ">
-                        <div class="footer-content ">
-                            <div class="footer-head ">
-                                <h4>Instagram</h4>
-                                <div class="flicker-img ">
-                                    <a href="# "><img src="img/portfolio/1.jpg " alt=" "></a>
-                                    <a href="# "><img src="img/portfolio/2.jpg " alt=" "></a>
-                                    <a href="# "><img src="img/portfolio/3.jpg " alt=" "></a>
-                                    <a href="# "><img src="img/portfolio/4.jpg " alt=" "></a>
-                                    <a href="# "><img src="img/portfolio/5.jpg " alt=" "></a>
-                                    <a href="# "><img src="img/portfolio/6.jpg " alt=" "></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="footer-area-bottom ">
-            <div class="container ">
-                <div class="row ">
-                    <div class="col-md-12 col-sm-12 col-xs-12 ">
-                        <div class="copyright text-center ">
+        <div class="footer-area-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="copyright text-center">
                             <p>
                                 &copy; Copyright <strong>SLC Engineering and Construction Private Limited</strong>. All Rights Reserved
                             </p>
                         </div>
-                        <div class="credits ">
+                        <div class="credits">
                             <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-              -->
-                            Designed by <a href="# ">Some name later</a>
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+          -->
+                            Designed by <a href="#">Some name later</a>
                         </div>
                     </div>
                 </div>
@@ -383,38 +397,38 @@
         </div>
     </footer>
 
-    <a href="# " class="back-to-top "><i class="fa fa-chevron-up "></i></a>
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js "></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js "></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
-    <script src="lib/venobox/venobox.min.js "></script>
-    <script src="lib/knob/jquery.knob.js "></script>
-    <script src="lib/wow/wow.min.js "></script>
-    <script src="lib/parallax/parallax.js "></script>
-    <script src="lib/easing/easing.min.js "></script>
-    <script src="lib/nivo-slider/js/jquery.nivo.slider.js " type="text/javascript "></script>
-    <script src="lib/appear/jquery.appear.js "></script>
-    <script src="lib/isotope/isotope.pkgd.min.js "></script>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/venobox/venobox.min.js"></script>
+    <script src="lib/knob/jquery.knob.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="lib/appear/jquery.appear.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
 
     <!-- Contact Form JavaScript File -->
-    <script src="contactform/contactform.js "></script>
+    <script src="contactform/contactform.js"></script>
 
-    <script src="js/main.js "></script>
+    <script src="js/main.js"></script>
     <!--  my own edit -->
     <script>
         var h = 1;
 
         function onMyButtonClick() {
             if (h === 1) {
-                document.getElementById("hidden_div ").style.display = "block ";
+                document.getElementById("hidden_div").style.display = "block";
                 h = 0;
-                document.getElementById("cus_button ").innerHTML = "Less "
+                document.getElementById("cus_button").innerHTML = "Less"
             } else {
-                document.getElementById("hidden_div ").style.display = "none ";
+                document.getElementById("hidden_div").style.display = "none";
                 h = 1;
-                document.getElementById("cus_button ").innerHTML = "More "
+                document.getElementById("cus_button").innerHTML = "More"
             }
         }
     </script>
