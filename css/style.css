@@ -301,7 +301,7 @@ div#preloader {
 
 .main-menu ul.navbar-nav li {
     display: inline-block;
-    padding: 0px 13px;
+    padding: 0px 10px;
 }
 
 .main-menu ul.navbar-nav li a {
@@ -439,7 +439,7 @@ div#preloader {
     color: #fff;
     padding: 0;
     margin: 0;
-    font-size: 36px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1;
 }
