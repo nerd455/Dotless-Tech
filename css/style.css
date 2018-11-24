@@ -2513,6 +2513,30 @@ span.email-notes {
     text-decoration: none;
 }
 
+.cus_btn2 {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-right: 15px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    background-color: white;
+    outline: none;
+    float: left;
+}
+
+.cus_btn2:hover {
+    color: #fff;
+    background: #3EC1D5;
+    border: 1px solid #3EC1D5;
+    text-decoration: none;
+}
+
 #hidden_div {
     display: none;
     transition: all 1s;
