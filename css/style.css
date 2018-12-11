@@ -456,6 +456,8 @@ table {
     padding: 0;
     margin: 0;
     font-size: 15px;
+    display: inline-block;
+    float: right;
     font-weight: bold;
     line-height: 1;
 }
@@ -2565,4 +2567,10 @@ span.email-notes {
     z-index: 222;
     background-color: #3EC1D5;
     outline: none;
+}
+
+.logo{
+    width: 25px;
+    height: auto;
+    display: inline-block;
 }
