@@ -445,18 +445,21 @@ table {
 
 .stick .navbar-brand>img {
     display: none;
+    height: auto;
+
 }
 
 .stick .navbar-brand.sticky-logo>img {
     display: block;
+    height: auto;
 }
 
 .sticky-logo h1 {
+    margin-top: -35px !important;
     color: #fff;
     padding: 0;
-    margin: 0;
     font-size: 15px;
-    display: inline-block;
+    display: block;
     float: right;
     font-weight: bold;
     line-height: 1;
