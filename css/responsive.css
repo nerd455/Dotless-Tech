@@ -147,11 +147,12 @@
     border: 0px solid #fff;
   }
   .logo {
-    height: inherit;
+    height: auto;
     left: 0;
     padding: 0;
     position: absolute;
-    top: -6px;
+    top: 5px;
+    width: 10px;
     z-index: 999999;
   }
   .logo a {
